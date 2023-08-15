@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="text/javascript"
+      src="https://www.bing.com/api/maps/mapcontrol?setmkt=en-us&key=AmVbtvgOXFY4_thip2ryjIn3MG1TtC0lDnaTN0vK7DFAmCuh2PDkk2JTxASc_rBy&callback=getMap"
+      async
+      defer
+    ></script>
+    <title>City Exploration</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bangalore City Exploration</h1>
+    </header>
+    <div class="about-city">
+      <p>
+        Bangalore, often referred to as the "Silicon Valley of India," is a city
+        that beautifully blends its historical roots with a bustling modern
+        lifestyle, creating a vibrant and diverse urban landscape.Known as the
+        The city comes alive after dark with itsvibrant nightlife, including
+        rooftop bars, live music venues, and cultural events, catering to a
+        variety of tastes and preferences. Amidst its modern façade, Bangalore
+        boasts historical landmarks such as the Bangalore Palace and Tipu
+        Sultan's Summer Palace, providing a glimpse into its royal past.
+      </p>
+    </div>
+    <table id="location-area">
+      <tr>
+        <td>
+          <div id="mapCanvas"></div>
+        </td>
+        <td>
+          <div class="container-xs btn-div">
+            <button
+              type="button"
+              onclick="getLocation()"
+              id="getLoc"
+              class="btn btn-outline-light"
+            >
+              <a href="#location-area">Fetch My Location</a>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="script.js"></script>
+</html>
