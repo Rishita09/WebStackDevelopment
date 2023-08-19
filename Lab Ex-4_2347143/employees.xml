@@ -1,0 +1,50 @@
+<employees>
+    <employee>
+        <personal>
+            <firstName>Rishita</firstName>
+            <lastName>Shah</lastName>
+            <dob>2000-09-29</dob>
+            <gender>Female</gender>
+        </personal>
+        <employment>
+            <position>Software Engineer</position>
+            <salary>250000</salary>
+        </employment>
+        <contact>
+            <email>rishita.shah@wsd.com</email>
+            <phoneNumber>8767092238</phoneNumber>
+        </contact>
+    </employee>
+    <employee>
+        <personal>
+            <firstName>Jyoti</firstName>
+            <lastName>Shah</lastName>
+            <dob>1968-11-24</dob>
+            <gender>Female</gender>
+        </personal>
+        <employment>
+            <position>UI/UX Designer</position>
+            <salary>90000</salary>
+        </employment>
+        <contact>
+            <email>shah.jyoti@wsd.com</email>
+            <phoneNumber>8900812780</phoneNumber>
+        </contact>
+    </employee>
+    <employee>
+        <personal>
+            <firstName>Pratik</firstName>
+            <lastName>Selarka</lastName>
+            <dob>1989-01-01</dob>
+            <gender>Male</gender>
+        </personal>
+        <employment>
+            <position>Manager</position>
+            <salary>200000</salary>
+        </employment>
+        <contact>
+            <email>selarka.pratik@wsd.com</email>
+            <phoneNumber>93330304080</phoneNumber>
+        </contact>
+    </employee>
+</employees>
