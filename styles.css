@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    color: azure;
+}
+.navigate{
+    text-align: end;
+}
+.login-page{
+    background-image: url("images/rm373batch13-082.jpg");
+    /* width:800px;
+    height:850px; */
+
+}
+.login-section{
+    display: block;
+    margin: 0 auto;
+    margin-top:300px;
+    width:500px;
+}
+#logo-img{
+    width:70px;
+    height:70px;
+}
+.article-img{
+    width:400px;
+    height:200px;
+    border-radius: 10px;
+}
+.user-profile{
+    display: block;
+    margin: 0 auto;
+}
+.avatar-img{
+    border-radius: 50%;
+}
+a:hover{
+    color: burlywood;
+}
+footer{
+    text-align: center;
+}
+.btn-sucess{
+    display:block;
+    margin:0 auto;
+}
