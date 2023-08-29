@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+ <xsd:element name="employees">
+  <xsd:complexType mixed="true">
+   <xsd:sequence>
+    <xsd:element minOccurs="3" maxOccurs="unbounded" name="employee">
+     <xsd:complexType mixed="true">
+      <xsd:sequence>
+       <xsd:element name="personal">
+        <xsd:complexType mixed="true">
+         <xsd:sequence>
+          <xsd:element name="name">
+           <xsd:complexType mixed="true">
+            <xsd:sequence>
+             <xsd:element name="first"
+              type="xsd:normalizedString" />
+             <xsd:element name="last"
+              type="xsd:normalizedString" />
+            </xsd:sequence>
+           </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="dob">
+           <xsd:simpleType>
+            <xsd:restriction base="xsd:date"></xsd:restriction>
+           </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="gender">
+           <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+             <xsd:enumeration value="Male"></xsd:enumeration>
+             <xsd:enumeration value="Female"></xsd:enumeration>
+             <xsd:enumeration value="Other"></xsd:enumeration>
+            </xsd:restriction>
+           </xsd:simpleType>
+          </xsd:element>
+         </xsd:sequence>
+        </xsd:complexType>
+       </xsd:element>
+       <xsd:element name="employment">
+        <xsd:complexType mixed="true">
+         <xsd:sequence>
+          <xsd:element name="id" type="xsd:unsignedShort" />
+          <xsd:element name="position"
+           type="xsd:normalizedString" />
+          <xsd:element name="salary" type="xsd:unsignedInt" />
+         </xsd:sequence>
+        </xsd:complexType>
+       </xsd:element>
+       <xsd:element name="contact">
+        <xsd:complexType mixed="true">
+         <xsd:sequence>
+          <xsd:element name="email">
+           <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+             <xsd:pattern
+              value="([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})"></xsd:pattern>
+            </xsd:restriction>
+           </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="phone">
+           <xsd:simpleType>
+            <xsd:restriction base="xsd:normalizedString">
+             <xsd:pattern value="[1-9]\d{9}"></xsd:pattern>
+            </xsd:restriction>
+           </xsd:simpleType>
+          </xsd:element>
+         </xsd:sequence>
+        </xsd:complexType>
+       </xsd:element>
+      </xsd:sequence>
+     </xsd:complexType>
+    </xsd:element>
+   </xsd:sequence>
+  </xsd:complexType>
+ </xsd:element>
+</xsd:schema>

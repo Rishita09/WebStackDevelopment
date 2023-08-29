@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="employee_schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="employee_transform.xsl" type="text/xsl"?>
+<employees>
+    <employee>
+        <personal>
+            <name>
+                <first>Rishita</first>
+                <last>Shah</last>
+            </name>
+            <dob>2000-09-29</dob>
+            <gender>Female</gender>
+        </personal>
+        <employment>
+            <id>1</id>
+            <position>Software Engineer</position>
+            <salary>250000</salary>
+        </employment>
+        <contact>
+            <email>rishita.shah@wsd.com</email>
+            <phone>8767092238</phone>
+        </contact>
+    </employee>
+    <employee>
+        <personal>
+            <name>
+                <first>Jyoti</first>
+                <last>Shah</last>
+            </name>
+            <dob>1968-11-24</dob>
+            <gender>Female</gender>
+        </personal>
+        <employment>
+            <id>2</id>
+            <position>UI/UX Designer</position>
+            <salary>90000</salary>
+        </employment>
+        <contact>
+            <email>shah.jyoti@wsd.com</email>
+            <phone>8900812780</phone>
+        </contact>
+    </employee>
+    <employee>
+        <personal>
+            <name>
+                <first>Pratik</first>
+                <last>Selarka</last>
+            </name>
+            <dob>1989-01-01</dob>
+            <gender>Male</gender>
+        </personal>
+        <employment>
+            <id>3</id>
+            <position>Manager</position>
+            <salary>200000</salary>
+        </employment>
+        <contact>
+            <email>selarka.pratik@wsd.com</email>
+            <phone>93330304080</phone>
+        </contact>
+    </employee>
+</employees>
