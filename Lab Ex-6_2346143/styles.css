@@ -1,0 +1,88 @@
+/* Add your CSS styles for form validation here. */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url("images/miti-qYreP9QOdrk-unsplash.jpg");
+  background-size: cover;
+}
+h1 {
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 56px;
+  color: azure;
+}
+.input-container {
+  display: flex;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+#registration-form {
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  color: bisque;
+}
+input {
+  margin-left: 10px;
+}
+.validation-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+input.invalid {
+  border: 1px solid red;
+}
+
+input.valid {
+  border: 1px solid green;
+}
+
+.validation-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.validation-icon {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  color: bisque;
+}
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(163, 215, 216);
+  font-size: 17px;
+}

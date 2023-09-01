@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="mb-5 mt-5">Warm Delights Bakery</h1>
+    <div class="container">
+      <form id="registration-form">
+        <div class="form-group mt-2">
+          <label for="full-name" class="form-label">Full Name:</label>
+          <div class="input-container">
+            <input
+              type="text"
+              id="full-name"
+              class="form-control w-100"
+              name="full-name"
+              required
+              autofocus
+            />
+            <div class="validation-icon" id="full-name-validation-icon"></div>
+            <div class="validation-message" id="name-validation"></div>
+          </div>
+        </div>
+
+        <div class="form-group mt-2">
+          <label for="email" class="form-label">Email Address:</label>
+          <div class="input-container">
+            <input
+              type="email"
+              id="email"
+              class="form-control w-100"
+              name="email"
+              required
+            />
+            <div class="validation-icon" id="email-validation-icon"></div>
+            <div class="validation-message" id="email-validation"></div>
+          </div>
+        </div>
+
+        <div class="form-group mt-2">
+          <label for="password" class="form-label">Password:</label>
+          <div class="input-container">
+            <input
+              type="password"
+              id="password"
+              class="form-control w-100"
+              name="password"
+              required
+            />
+            <div class="validation-icon" id="password-validation-icon"></div>
+            <div class="validation-message" id="password-validation"></div>
+          </div>
+        </div>
+
+        <div class="form-group mt-2">
+          <label for="confirm-password" class="form-label"
+            >Confirm Password:</label
+          >
+          <div class="input-container">
+            <input
+              type="password"
+              id="confirm-password"
+              class="form-control w-100"
+              name="confirm-password"
+              required
+            />
+            <div
+              class="validation-icon"
+              id="confirm-password-validation-icon"
+            ></div>
+            <div
+              class="validation-message"
+              id="confirm-password-validation"
+            ></div>
+          </div>
+        </div>
+
+        <div class="form-group mt-2">
+          <label for="date-of-birth" class="form-label"
+            >Date of Birth (YYYY-MM-DD):</label
+          >
+          <div class="input-container">
+            <input
+              type="text"
+              id="date-of-birth"
+              class="form-control w-100"
+              name="date-of-birth"
+              required
+            />
+            <div class="validation-icon" id="dob-validation-icon"></div>
+            <div class="validation-message" id="dob-validation"></div>
+          </div>
+        </div>
+        <div>
+          <button
+            type="submit"
+            id="submit-button"
+            class="btn btn-primary mt-5"
+            disabled
+          >
+            Register
+          </button>
+          <br />
+        </div>
+      </form>
+      <footer class="mt-5">
+        For the fresest and warmest baked goodies, choose
+        <a href="#">Warm Delights Bakery</a> managed by
+        <a href="#">Rishita Shah</a>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
