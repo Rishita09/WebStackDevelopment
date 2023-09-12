@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Palace of Illusions",
+    "author": "Chitra Banerjee Divakaruni",
+    "genre": "Fiction"
+  },
+  {
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "genre": "Fantasy, Romance"
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "genre": "Science Fiction, Dystopian"
+  },
+  {
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "genre": "Mystery, Historical Fiction"
+  },
+  {
+    "title": "The Golem and the Jinni",
+    "author": "Helene Wecker",
+    "genre": " Historical Fiction"
+  },
+  {
+    "title": "The Ocean at the End of the Lane",
+    "author": " Neil Gaiman",
+    "genre": "Fantasy, Magical Realism"
+  }
+]
